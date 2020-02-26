@@ -1,4 +1,4 @@
-# 基于Mycat的动态多数据源，实现读写分离
+# 基于MyCat的动态数据源，实现读写分离
 
 ### 一、mysql 配置主从复制
 
@@ -9,7 +9,7 @@ master负责相应的写操作（insert，update，delete），slave负责读操
 具体参考链接：https://blog.csdn.net/qq_37654381/article/details/104510811
 
 
-### 三、
+### 三、配置多数据源、读写分离
 配置两个数据源，一个为写数据源，一个为只读数据源。
 ```yaml
 spring:
