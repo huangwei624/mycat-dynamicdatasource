@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    ###可读数据源
+    select:
+      jdbc-url: jdbc:mysql://192.168.38.134:8066/mycat_testdb
+      driver-class-name: com.mysql.jdbc.Driver
+      username: user
+      password: 123456
+    ####可写数据源
+    update:
+      jdbc-url: jdbc:mysql://192.168.38.134:8066/mycat_testdb
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
